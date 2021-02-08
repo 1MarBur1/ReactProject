@@ -1,0 +1,66 @@
+.home__container {
+	padding-left: 17%;
+	padding-right: 17%;
+	animation-name: home;
+	position: relative;
+	animation-duration: 1s;
+}
+
+.home__text {
+	display: flex;
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: 39px;
+}
+
+.img {
+	overflow: hidden;
+	max-width: 100%;
+	max-height: 360px;
+}
+.img img {
+	height: auto;
+	transition: 500ms;
+	width: 100%;
+}
+
+.img img:hover {
+	transform: scale(1.05);
+}
+
+.img__2 {
+	overflow: hidden;
+	display: none;
+}
+.img__2 img {
+	transition: 500ms;
+	width: 100%;
+}
+
+.img__2 img:hover {
+	transform: scale(1.05);
+}
+
+.name {
+	width: 123px;
+	position: relative;
+}
+
+.info {
+	position: relative;
+	bottom: 0;
+	margin-left: 30%;
+	width: 155.65px;
+	margin-top: 61px;
+}
+
+@keyframes home{
+	from {
+		right: -1000px;
+		opacity: 0.2;
+	}
+	to {
+		right: 0px;
+		opacity: 1;		
+	}
+}

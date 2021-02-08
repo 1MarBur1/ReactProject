@@ -1,0 +1,13 @@
+.container__about {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 360px;
+	background-color: #f6f6f6;
+	margin-top: 104px;
+}
+
+.about__text {
+	text-align: center;
+}

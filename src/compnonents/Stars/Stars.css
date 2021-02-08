@@ -1,0 +1,6 @@
+.stars__container {
+	display: flex;
+	flex-direction: row;
+	width: 166px;
+	justify-content: space-between;
+}

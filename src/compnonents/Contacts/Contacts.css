@@ -1,0 +1,17 @@
+.contacts__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 114px;
+}
+
+.contacts__subtitle {
+	text-align: center;
+	width: 275px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.social {
+	margin-top: 85px;
+}

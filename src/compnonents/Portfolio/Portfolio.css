@@ -1,0 +1,13 @@
+.portfolio__container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: #f6f6f6;
+	padding-top: 112px;
+}
+
+.portfolio__header {
+	margin-bottom: 46px;
+}

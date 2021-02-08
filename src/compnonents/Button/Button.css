@@ -1,0 +1,15 @@
+.button__container {
+	width: 180px;
+	height: 42px;
+	border-radius: 20px;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.button__container p {
+	font-weight: 700;
+	color: #fff;
+}

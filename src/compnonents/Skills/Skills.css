@@ -1,0 +1,22 @@
+.skills__container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 430px;
+	margin-top: 91px;
+	padding-left: 17%;
+	padding-right: 17%;
+}
+
+.skills__subtitle {
+	margin-top: 69px;
+	text-align: center;
+}
+
+.programs {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	margin-top: 83px;
+}

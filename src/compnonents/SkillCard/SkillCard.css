@@ -1,0 +1,22 @@
+.skill__card__container{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 200px;
+	width: 166px;
+}
+
+.skill__card__title {
+	width: 79px;
+	text-align: center;
+	color: #828282;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+.stars__container {
+	position: absolute;
+	bottom: 0;
+}

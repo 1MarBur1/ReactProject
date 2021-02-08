@@ -1,0 +1,21 @@
+.social__container {
+	display: flex;
+	width: 342px;
+	height: 120px;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.social__icons {
+	display: flex;
+	width: 342px;
+	height: 41px;
+	justify-content: space-between;
+}
+
+.social__container p {
+	text-align: center;
+	color: #828282;
+	font-size: 14px;
+	margin-top: 45px;
+}

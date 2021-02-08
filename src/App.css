@@ -1,0 +1,217 @@
+@font-face {
+	font-family: 'Gilroy';
+	font-weight: 700;
+	src: url(./fonts/Gilroy-Bold.ttf)
+}
+@font-face {
+	font-family: 'Gilroy';
+	font-weight: 500;
+	src: url(./fonts/Gilroy-Medium.ttf)
+}
+
+body {
+	margin: 0;
+    width: 100%;
+	font-family: 'Gilroy';
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 123px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 47px;
+	font-family: 'Gilroy';
+	font-weight: 700;
+	color: #070707;
+}
+
+h2 {
+	font-size: 34px;
+	font-family: 'Gilroy';
+	font-weight: 700;
+	color: #070707;
+}
+
+p {
+	color: #070707;
+}
+
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 1460px) {
+	.container__about {
+		padding-top: 120px;
+	}
+
+	.portfolio__container {
+		margin-top: 110px;
+		height: 2150px;
+	}
+
+	.programs {
+		width: 120%;
+		align-self: center;
+	}
+
+	.about__text {
+		width: 485px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.container__about {
+		padding-top: 120px;
+	}
+
+	.portfolio__container {
+		margin-top: 110px;
+		height: 1700px;
+	}
+	
+	.programs {
+		width: 120%;
+		align-self: center;
+	}
+
+	.about__text {
+		width: 485px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container__about {
+		padding-top: 120px;
+	}
+
+	.programs {
+		flex-direction: column;
+		height: 2000px;
+		width: 166px;
+		margin: 0 auto;
+	}
+	
+	.skill__card__container {
+		margin-bottom: 81px;
+	}
+	
+	.portfolio__container {
+		margin-top: 900px;
+		height: 1400px;
+	}	
+
+	.about__text {
+		width: 485px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/* NAV */
+	.nav {
+		display: none;
+	}
+
+	.sticky {
+		display: none;
+	}
+	
+	/* HOME */
+	.home__container  {
+		padding-left: 7% !important;
+		padding-right: 7% !important;
+	}
+
+	.name  {
+		margin-top: 15px;
+	}
+
+	.img {
+		display: none;
+	}
+
+	.img__2 {
+		display: block !important;
+	}
+
+	.home__text {
+		flex-direction: column;
+	}
+
+	.info {
+		position: relative !important;
+		margin: 23px 0 !important;
+	}
+	
+	/* ABOUT */
+
+	.container__about {
+		padding-top: 80px;
+		height: 400px !important;
+	}
+
+	.about__text {
+		width: 316px;
+		margin-top: 30px;
+		word-wrap: break-word;
+	}
+	
+	.about__text br {
+		display: none;
+	}
+
+	/* PORTFOLIO */
+
+	.portfolio__container {
+		margin-top: 900px;
+		height: 1050px;
+	}	
+
+	/* SOCIAL */
+	.social__container,
+	.social__icons {
+		width: 260px !important;
+	}
+	/* BURGER */
+	.burger {
+		display: block;
+		position: absolute;
+		width: 33px;
+		height: 20px;
+		top: 68px;
+		right: 30px;
+	}
+
+	.burger span {
+		position: absolute;
+		background-color: #000;
+		left: 0;
+		width: 100%;
+		height: 3.84px;
+		top: 7.68px;
+	}
+	
+	.burger::before, .burger::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 3.84px;
+		left: 0;
+		background-color: #000;
+	}
+
+	.burger::before {
+		top:0;
+	}
+
+	.burger::after {
+		bottom: 0;
+	}
+}
